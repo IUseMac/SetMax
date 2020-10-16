@@ -1,0 +1,28 @@
+# SetMaxPlayers - Change Max Players Allowed, Simply.
+# MaxPlayers:
+#   Change the Max Players Allowed on the Server, or use /setmax In-Game.
+#   If you have any Suggestions feel free to tell me!
+maxPlayers: '100'
+invalidCommand: "&6SetMax &8| &7Invalid Command!"
+needHigherInput: "&6SetMax &8| &7Please enter a number higher than 0!"
+changedMax: "&6SetMax &8| &7Changed Max Players from &r&n{oldMax}&7 to &r&n{newMax}&7!"
+reloadedConfig: "&6SetMax &8| &7Successfully Reloaded Config!"
+noPermission: "&6SetMax &8| &7You do not have Permission to use this Command!"
+
+groups:
+  owner:
+    permission: "setmax.owner"
+    maxJoin: '100'
+
+  staff:
+    permission: "setmax.staff"
+    maxJoin: '75'
+
+    buycraft:
+      permission: "setmax.buycraft"
+      maxJoin: '50'
+
+  default:
+    permission: "-1"
+    maxJoin: '-1'
+    # -1 is whatever you Set the maxPlayers to above or in-game.

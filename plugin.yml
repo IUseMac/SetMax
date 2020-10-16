@@ -1,0 +1,11 @@
+name: SetMax
+version: 1.4
+api-version: 1.16
+description: Change Max Players Allowed without Restarting!
+author: IUseMac
+main: SetMaxPlayers.IUseMac.Main
+
+commands:
+  setmax:
+    usage: /setmax
+    description: Main Command for SetMaxPlayers
